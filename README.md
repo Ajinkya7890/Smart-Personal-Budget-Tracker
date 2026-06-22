@@ -60,21 +60,38 @@ The Smart Personal Budget Tracker provides:
 ```text
 Smart-Personal-Budget-Tracker/
 │
-├── app.py                         # Streamlit Application
-├── PersonalBudgetTracker.ipynb    # Original Notebook
-├── requirements.txt
+├── app.py                      # Main Streamlit Application
 ├── README.md
+├── requirements.txt
 │
-└── screenshots/
-    ├── dashboard.png
-    ├── add_transaction.png
-    ├── budget_management.png
-    ├── budget_monitoring.png
-    ├── alerts_center.png
-    ├── expense_analytics_1.png
-    ├── expense_analytics_2.png
-    ├── spending_forecast.png
-    └── financial_health.png
+├── Ipynb file/
+│   └── PersonalBudgetTracker.ipynb
+│
+├── Screenshots/
+│   ├── dashboard.png
+│   ├── add_transaction.png
+│   ├── budget_management.png
+│   ├── budget_monitoring.png
+│   ├── alerts_center.png
+│   ├── expense_analytics_1.png
+│   ├── expense_analytics_2.png
+│   ├── spending_forecast.png
+│   └── financial_health.png
+│
+├── pages/
+│   ├── 1_Add_Transaction.py
+│   ├── 2_Budget_Management.py
+│   ├── 3_Budget_Monitoring.py
+│   ├── 4_Alerts_Center.py
+│   ├── 5_Expense_Analytics.py
+│   ├── 6_Spending_Forecast.py
+│   └── 7_Financial_Health.py
+│
+└── utils/
+    ├── __init__.py
+    ├── business_logic.py
+    ├── data_manager.py
+    └── styling.py
 ```
 
 ## 🚀 Running the Streamlit Application
