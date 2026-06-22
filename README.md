@@ -1,6 +1,5 @@
 # Smart Personal Budget Tracker & Expense Forecasting
 
-![Dashboard](Screenshots/dashboard.png)
 
 A comprehensive personal finance management application built using **Python, Streamlit, Data Analytics, and Machine Learning**. The application enables users to track income and expenses, manage budgets, receive spending alerts, analyze financial behavior, and forecast future spending using Linear Regression.
 
