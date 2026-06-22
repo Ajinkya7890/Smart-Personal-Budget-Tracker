@@ -1,166 +1,171 @@
 # Smart Personal Budget Tracker & Expense Forecasting
 
-A comprehensive personal finance management tool built with Python in Jupyter Notebook. This project demonstrates income tracking, expense categorization, budget monitoring, financial analysis, and spending forecasts using machine learning.
+![Dashboard](screenshots/dashboard.png)
+
+A comprehensive personal finance management application built using **Python, Streamlit, Data Analytics, and Machine Learning**. The application enables users to track income and expenses, manage budgets, receive spending alerts, analyze financial behavior, and forecast future spending using Linear Regression.
 
 ## 📋 Project Overview
 
-The Smart Personal Budget Tracker provides users with:
+The Smart Personal Budget Tracker provides:
 
-- **Transaction Management**: Manual entry of income and expense transactions
-- **Budget Planning**: Set and monitor budget limits across multiple spending categories
-- **Financial Summary**: Calculate total income, expenses, savings, and savings rate
-- **Budget Monitoring**: Track spending against budget limits with real-time status
-- **Alert System**: Automatic alerts when budgets are exceeded or running low
-- **Expense Analytics**: Visual insights into spending patterns and trends
-- **Spending Forecast**: Machine learning-based predictions for future spending
-- **Financial Health Scoring**: Automated health score assessment based on budget adherence
+* 💰 Income & Expense Tracking
+* 📊 Interactive Financial Dashboard
+* 🎯 Budget Management & Monitoring
+* 🚨 Budget Alerts System
+* 📈 Expense Analytics & Visualizations
+* 🤖 Machine Learning-Based Spending Forecast
+* ❤️ Financial Health Assessment
+* 📁 CSV Import & Export Support
+* 🌙 Dark Mode Support
+
+## 📸 Application Preview
+
+### 🏠 Financial Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### ➕ Add Transaction
+
+![Add Transaction](screenshots/add_transaction.png)
+
+### 🎯 Budget Management
+
+![Budget Management](screenshots/budget_management.png)
+
+### 📋 Budget Monitoring
+
+![Budget Monitoring](screenshots/budget_monitoring.png)
+
+### 🚨 Alerts Center
+
+![Alerts Center](screenshots/alerts_center.png)
+
+### 📊 Expense Analytics
+
+![Expense Analytics](screenshots/expense_analytics_1.png)
+
+### 📈 Spending Trends & Heatmap
+
+![Expense Trends](screenshots/expense_analytics_2.png)
+
+### 🔮 Spending Forecast
+
+![Spending Forecast](screenshots/spending_forecast.png)
+
+### ❤️ Financial Health Assessment
+
+![Financial Health](screenshots/financial_health.png)
 
 ## 📁 Project Structure
 
-```
+```text
 Smart-Personal-Budget-Tracker/
+│
+├── app.py                         # Streamlit Application
+├── PersonalBudgetTracker.ipynb    # Original Notebook
+├── requirements.txt
 ├── README.md
-├── Ipynb file/
-│   └── PersonalBudgetTracker.ipynb    # Main Jupyter notebook
-└── [Other supporting files]
+│
+└── screenshots/
+    ├── dashboard.png
+    ├── add_transaction.png
+    ├── budget_management.png
+    ├── budget_monitoring.png
+    ├── alerts_center.png
+    ├── expense_analytics_1.png
+    ├── expense_analytics_2.png
+    ├── spending_forecast.png
+    └── financial_health.png
 ```
 
-## 🚀 Getting Started
+## 🚀 Running the Streamlit Application
 
-### Prerequisites
+### Install Dependencies
 
-- Python 3.7+
-- Jupyter Notebook or JupyterLab
-- Required Python packages
-
-### Installation
-
-1. Clone the repository:
 ```bash
-git clone https://github.com/Ajinkya7890/Smart-Personal-Budget-Tracker.git
-cd Smart-Personal-Budget-Tracker
+pip install -r requirements.txt
 ```
 
-2. Install required dependencies:
+### Run the Application
+
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
+streamlit run app.py
 ```
 
-3. Launch Jupyter Notebook:
-```bash
-jupyter notebook
-```
+Open your browser at:
 
-4. Open `Ipynb file/PersonalBudgetTracker.ipynb` and run the cells
+```text
+http://localhost:8501
+```
 
 ## 📊 Key Features
 
-### 1. **Transaction Management**
-- Manual transaction entry with date, category, and amount
-- Support for multiple spending categories:
-  - Food
-  - Rent
-  - Utilities
-  - Entertainment
-  - Transport
-  - Health
+### 💰 Financial Dashboard
 
-### 2. **Financial Summary Dashboard**
-Displays key metrics:
-- **Total Income**: ₹665,000
-- **Total Expenses**: ₹196,140
-- **Total Savings**: ₹468,860
-- **Savings Rate**: 70.51%
+* Total Income Tracking
+* Expense Monitoring
+* Savings Calculation
+* Savings Rate Analysis
+* Budget Health Score
+* Next Month Spending Forecast
 
-### 3. **Budget Management**
-- Pre-defined budget limits per category
-- Easily customizable spending caps
-- Comprehensive budget tracking table
+### ➕ Transaction Management
 
-### 4. **Budget Monitoring & Alerts**
-- Real-time tracking of spent vs. budget limit
-- Automatic status indicators:
-  - ✅ Within Budget
-  - ⚠️ Over Budget
-- Alert system for:
-  - Over-budget categories
-  - Low budget warnings (< 10% remaining)
+* Add Income Transactions
+* Add Expense Transactions
+* Category-wise Tracking
+* Transaction History
 
-### 5. **Expense Analytics**
-Visual representations including:
-- Income vs. Expense vs. Savings bar charts
-- Budget Limit vs. Actual Spending comparison
-- Category-wise spending breakdown
-- Trend analysis over time
+### 🎯 Budget Management
 
-### 6. **Spending Forecast**
-- Linear Regression-based predictive model
-- Forecasts next month's spending patterns
-- Helps with future budget planning
+* Set Budget Limits
+* Monitor Budget Utilization
+* Category-wise Budget Tracking
 
-### 7. **Financial Health Score**
-Automated scoring system:
-- **Score Range**: 0-100
-- **Rating Levels**:
-  - 🟢 Excellent (80+): Strong budget adherence
-  - 🟡 Good (60-79): Healthy financial habits
-  - 🟠 Fair (40-59): Needs attention
-  - 🔴 Poor (<40): Requires immediate action
+### 🚨 Budget Alerts
+
+* Over-Budget Notifications
+* Near-Limit Warnings
+* Financial Recommendations
+
+### 📈 Expense Analytics
+
+* Category-wise Spending Analysis
+* Spending Distribution
+* Monthly Trends
+* Spending Heatmaps
+* Top Spending Days
+
+### 🤖 Spending Forecast
+
+* Linear Regression Model
+* Future Spending Prediction
+* Historical vs Predicted Analysis
+
+### ❤️ Financial Health Assessment
+
+* Budget Health Score (0-100)
+* Financial Status Classification
+* Personalized Recommendations
 
 ## 📈 Technology Stack
 
-- **Language**: Python (96.3% Jupyter Notebook, 3.7% Python)
-- **Data Processing**: Pandas, NumPy
-- **Machine Learning**: Scikit-learn (Linear Regression)
-- **Visualization**: Matplotlib, Seaborn
-
-## 📖 How It Works
-
-1. **Data Input**: Manually enter transactions with date, category, and amount
-2. **Data Processing**: Aggregate transactions by category and date
-3. **Financial Calculations**: Compute income, expenses, savings, and rates
-4. **Budget Comparison**: Compare actual spending against budget limits
-5. **Analysis & Visualization**: Generate charts and insights
-6. **Forecasting**: Predict future spending using Linear Regression
-7. **Health Assessment**: Calculate financial health score
-
-## 🎯 Sample Output
-
-### Budget Monitoring Report
-| Category | Spent | Budget Limit | Remaining | Status |
-|---|---|---|---|---|
-| Entertainment | 4,206 | 20,000 | 15,794 | ✅ Within Budget |
-| Food | 2,950 | 40,000 | 37,050 | ✅ Within Budget |
-| Health | 1,500 | 10,000 | 8,500 | ✅ Within Budget |
-| Rent | 2,376 | 70,000 | 67,624 | ✅ Within Budget |
-| Transport | 500 | 15,000 | 14,500 | ✅ Within Budget |
-| Utilities | 2,204 | 25,000 | 22,796 | ✅ Within Budget |
-
-## 💡 Use Cases
-
-- Personal expense tracking and budgeting
-- Financial goal planning and savings targets
-- Spending pattern analysis
-- Budget rebalancing recommendations
-- Financial health monitoring
-- Future cash flow predictions
-
-## 📝 License
-
-This project is open source and available for educational and personal use.
+* Python
+* Streamlit
+* Pandas
+* NumPy
+* Scikit-Learn
+* Plotly
+* Matplotlib
+* Seaborn
+* Linear Regression
 
 ## 👨‍💻 Author
 
-**Ajinkya7890**
+**Ajinkya Mariche**
 
-## 🤝 Contributing
+GitHub: https://github.com/Ajinkya7890
 
-Contributions, issues, and feature requests are welcome! Feel free to fork this repository and submit pull requests.
+**Ishan Pote**
 
-## 📧 Feedback
-
-For questions, suggestions, or feedback, please open an issue on the GitHub repository.
-
----
-
-**Note**: This is a demonstration project showcasing financial analysis techniques in Python. For production financial applications, additional security and compliance measures would be necessary.
+Github: https://github.com/ishanpote
