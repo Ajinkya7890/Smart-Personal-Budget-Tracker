@@ -2,7 +2,7 @@
 
 import streamlit as st
 from utils import business_logic as bl
-from utils import data_manager as dm
+from utils import data_manager as dm 
 from utils import styling
 
 st.set_page_config(page_title="Alerts Center", page_icon="🚨", layout="wide")
