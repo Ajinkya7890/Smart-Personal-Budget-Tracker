@@ -1,6 +1,6 @@
 """Page 3: Budget Management — set / update budget limits with progress bars."""
 
-import streamlit as st
+import streamlit as st 
 from utils import business_logic as bl
 from utils import data_manager as dm
 from utils import styling
