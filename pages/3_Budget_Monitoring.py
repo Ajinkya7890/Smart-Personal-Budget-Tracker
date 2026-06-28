@@ -4,7 +4,7 @@ import streamlit as st
 import plotly.graph_objects as go
 from utils import business_logic as bl
 from utils import data_manager as dm
-from utils import styling
+from utils import styling 
 
 st.set_page_config(page_title="Budget Monitoring", page_icon="📋", layout="wide")
 dm.init_session_state()
