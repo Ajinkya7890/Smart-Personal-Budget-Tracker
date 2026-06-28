@@ -1,5 +1,5 @@
 """Page 2: Add Transaction — manual income/expense entry."""
-
+ 
 import streamlit as st
 import datetime
 from utils import business_logic as bl
