@@ -1,7 +1,7 @@
 """Page 6: Expense Analytics — pie, histogram, monthly trend, heatmap, top days."""
 
 import streamlit as st
-import plotly.express as px
+import plotly.express as px 
 import plotly.graph_objects as go
 from utils import business_logic as bl
 from utils import data_manager as dm
