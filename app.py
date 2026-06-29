@@ -19,7 +19,7 @@ st.set_page_config(
 )
 
 dm.init_session_state()
-styling.inject_css()
+styling.inject_css() 
 
 # ---------------------------------------------------------------------------
 # Sidebar — branding, dark mode, CSV import/export
