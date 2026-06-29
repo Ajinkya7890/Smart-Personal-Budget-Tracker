@@ -9,7 +9,7 @@ from utils import data_manager as dm
 from utils import styling
 
 # ---------------------------------------------------------------------------
-# Page configuration
+# Page configuration 
 # ---------------------------------------------------------------------------
 st.set_page_config(
     page_title="Smart Budget Tracker",
